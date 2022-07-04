@@ -1,10 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8.5",
-  "package": "org.example.ignite.mixin",
+  "package": "de.leximon.fuqsignature.mixin",
   "target": "@env(DEFAULT)",
   "compatibilityLevel": "JAVA_8",
   "server": [
-    "ExampleMixin"
+    "ServerGamePacketListenerImplMixin"
   ]
 }

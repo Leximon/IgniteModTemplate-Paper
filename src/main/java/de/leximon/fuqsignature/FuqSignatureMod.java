@@ -1,4 +1,4 @@
-package org.example.ignite;
+package de.leximon.fuqsignature;
 
 import com.google.inject.Inject;
 import org.apache.logging.log4j.Logger;
@@ -6,19 +6,19 @@ import space.vectrix.ignite.api.Platform;
 import space.vectrix.ignite.api.event.Subscribe;
 import space.vectrix.ignite.api.event.platform.PlatformInitializeEvent;
 
-@SuppressWarnings({"FieldCanBeLocal", "unused", "ClassCanBeRecord"})
-public class ExampleMod {
+@SuppressWarnings({"FieldCanBeLocal", "unused"})
+public class FuqSignatureMod {
     private final Logger logger;
     private final Platform platform;
 
     @Inject
-    public ExampleMod(Logger logger, Platform platform) {
+    public FuqSignatureMod(Logger logger, Platform platform) {
         this.logger = logger;
         this.platform = platform;
     }
 
     @Subscribe
     public void onInitialize(PlatformInitializeEvent event) {
-        this.logger.info("Hello World!");
+        this.logger.info("Fuq off the chat signature has been initialized!");
     }
 }

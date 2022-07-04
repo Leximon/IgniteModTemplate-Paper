@@ -1,14 +1,13 @@
 {
-  "id": "example",
+  "id": "fuq_signature",
   "version": "${version}",
-  "entry": "org.example.ignite.ExampleMod",
+  "entry": "de.leximon.fuqsignature.FuqSignatureMod",
   "dependencies": [
     "ignite"
   ],
   "mixins": [
-    "mixins.example.json"
+    "mixins.fuq_signature.json"
   ],
   "access_widener": [
-    "example-obf.accesswidener"
   ]
 }

@@ -28,7 +28,7 @@ dependencies {
     // Ignite & Spigot
     remapLib "org.spigotmc:spigot:${project.paper_version}:remapped-mojang"
 
-    accessWidener fileTree(dir: 'src/main/resources', include: ['*.accesswidener']) // This doesn't support multiple access wideners
+    // accessWidener fileTree(dir: 'src/main/resources', include: ['*.accesswidener']) // This doesn't support multiple access wideners
     implementation "io.papermc.paper:paper-api:${project.paper_version}"
     implementation "space.vectrix.ignite:ignite-api:${project.ignite_version}"
     implementation "org.spongepowered:mixin:${project.mixin_version}"
